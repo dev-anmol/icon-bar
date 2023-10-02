@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.icons{
+    height: 10rem;
+    width: 15rem;
+    text-align: center;
+}
+.icons i{
+    font-size: 6rem;
+    padding: .6rem;
+    position: relative;
+    top: 1.2rem;
+}
+
+#container .icon1{
+    background-color: #04AA6D;
+}
+#container .icons i{
+    color: white;
+}
+#container .same{
+    background-color: #555555;
+}
+
+#container .same:hover{
+    background-color: black;
+}
